@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-6xl;
+  }
+  button {
+    @apply text-lg;
+  }
+}
