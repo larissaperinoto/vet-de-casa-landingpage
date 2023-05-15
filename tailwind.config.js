@@ -8,7 +8,9 @@ module.exports = {
         "secondary": "#3E7183"
       },
       fontFamily: {
-        Roboto: ["Roboto, sans-serif"]
+        Roboto: ["Roboto, sans-serif"],
+        Kaushan: ["Kaushan Script, sans-serif"],
+        Luckiest: ["Luckiest Guy, sans-serif"]
       },
       container: {
         center: true,
