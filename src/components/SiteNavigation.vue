@@ -1,5 +1,5 @@
 <template>
-  <header class="pt-8 pb-14 md:py-10">
+  <header class="py-10 sticky top-0 bg-white  w-full sm:py-1">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <nav class="relative z-50 flex justify-between">
         <div class="flex items-center w-24 md:gap-x-12 md:w-36">
@@ -7,7 +7,7 @@
             <img src="../assets/images/logo.png" />
           </a>
         </div>
-      <div class="flex items-end gap-x-5 md:gap-x-8 md:items-center">
+      <div class="flex items-center gap-x-5 md:gap-x-8 md:items-center">
         <div class="hidden md:flex md:gap-x-6">
           <a class="inline-block rounded-lg px-2 py-1 text-sm text-slate-700 hover:bg-slate-100 hover:text-slate-900" href="/#home">
             Início
@@ -38,6 +38,25 @@
 import MenuComponent from "./MenuComponent.vue";
 </script>
 
-<style scoped>
+<script>
 
-</style>
+export default {
+  created () {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  unmounted () {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
+  methods: {
+    handleScroll() {
+      const elementDOM = document.querySelector('header');
+
+      if (window.scrollY > 0) {
+        elementDOM.classList.add('scrolled');
+      } else {
+        elementDOM.classList.remove('scrolled');
+      }
+    }
+  }
+}
+</script>
