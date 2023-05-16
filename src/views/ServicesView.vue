@@ -1,0 +1,30 @@
+<template>
+  <section class="flex flex-col justify-center align-center h-screen w-full">
+    <h1 class="py-10 text-4xl font-Luckiest text-slate-700 self-center" id="services">Serviços</h1>
+    <div class="flex flex-wrap justify-evenly">
+      <ServiceCard
+        v-for="service in this.services"
+        :key="services.title"
+        :service="service"
+      />
+    </div>
+  </section>
+</template>
+
+<script>
+import services from '../utils/services';
+import ServiceCard from '../components/ServiceCard.vue';
+export default {
+  components: {
+    ServiceCard
+  },
+  data() {
+    return {
+      services: []
+    }
+  },
+  mounted() {
+    this.services = services;
+  }
+}
+</script>

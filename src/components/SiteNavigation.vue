@@ -1,10 +1,10 @@
 <template>
-  <header class="py-10 sticky top-0 bg-white  w-full sm:py-1">
+  <header class="sticky top-0 bg-white w-full py-10">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <nav class="relative z-50 flex justify-between">
-        <div class="flex items-center w-24 md:gap-x-12 md:w-36">
+        <div class="flex items-center w-24 md:gap-x-12 md:w-36" id="logo-container">
           <a href="/#">
-            <img src="../assets/images/logo.png" />
+            <img src="../assets/images/logo.png"/>
           </a>
         </div>
       <div class="flex items-center gap-x-5 md:gap-x-8 md:items-center">

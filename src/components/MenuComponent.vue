@@ -41,11 +41,12 @@
               </button>
             </MenuItem>
             <MenuItem v-slot="{ active }">
-              <button
+              <a
                 :class="[
                   active ? 'bg-violet-500 text-white' : 'text-gray-900',
                   'group flex w-full items-center rounded-md px-2 py-2 text-sm',
                 ]"
+                href="/#services"
               >
                 <DuplicateIcon
                   :active="active"
@@ -53,11 +54,11 @@
                   aria-hidden="true"
                 />
                 Serviços
-              </button>
+            </a>
             </MenuItem>
           </div>
           <div class="px-1 py-1">
-            <MenuItem v-slot="{ active }">
+            <MenuItem v-slot="{ active }" href="/#about">
               <button
                 :class="[
                   active ? 'bg-violet-500 text-white' : 'text-gray-900',
