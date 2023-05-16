@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="flex flex-col justify-center items-center h-screen w-screen sm:flex-row">
+  <section id="about" class="flex flex-col justify-center items-center h-screen w-full sm:flex-row">
     <div class="w-full flex justify-center px-10 md:w-1/3">
       <img src="../assets/images/about_img.png" class="bg-teal-500 rounded-[52px]" />
     </div>
