@@ -1,6 +1,6 @@
 <template>
-  <section class="flex flex-col justify-center h-screen w-full">
-    <h1 class="py-10 text-4xl font-Luckiest text-slate-700 self-center" id="services">Serviços</h1>
+  <section class="flex flex-col justify-center h-screen w-full" id="services">
+    <h1>Serviços</h1>
     <div class="flex flex-wrap justify-evenly">
       <ServiceCard
         v-for="service in this.services"

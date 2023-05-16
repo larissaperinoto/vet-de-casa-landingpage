@@ -8,9 +8,9 @@ module.exports = {
         "secondary": "#3E7183"
       },
       fontFamily: {
-        Kaushan: ["Kaushan Script, sans-serif"],
-        Luckiest: ["Luckiest Guy, sans-serif"],
-        PTSerif: ["'PT Serif', serif"],
+        handwriting: ["Cookie, cursive"],
+        title: ["Titan One, cursive"],
+        content: ["PT Serif', serif"],
       },
       container: {
         center: true,

@@ -4,10 +4,7 @@
 
 @layer base {
   h1 {
-    @apply text-6xl;
-  }
-  button {
-    @apply text-lg;
+    @apply font-title text-center text-4xl text-slate-700 py-8;
   }
 }
 
@@ -20,6 +17,7 @@
 
 .scrolled #logo-container {
   width: 80px;
+  padding: 10px 0;
 }
 
 @keyframes padding {
