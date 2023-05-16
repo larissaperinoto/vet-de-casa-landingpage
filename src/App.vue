@@ -4,6 +4,7 @@
     <HomeView />
     <Services />
     <AboutView />
+    <ContactView />
   </div>
 </template>
 
@@ -13,4 +14,5 @@ import SiteNavigation from "./components/SiteNavigation.vue";
 import HomeView from "./views/HomeView.vue";
 import Services from "./views/ServicesView.vue";
 import AboutView from "./views/AboutView.vue";
+import ContactView from './views/ContactView.vue'
 </script>

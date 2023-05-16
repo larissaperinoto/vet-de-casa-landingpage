@@ -20,7 +20,7 @@
           </a>
         </div>
         <div>
-          <a class="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold border-2 border-teal-500 text-teal-500 hover:bg-teal-500 hover:text-white" href="/contact">
+          <a class="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold border-2 border-teal-500 text-teal-500 hover:bg-teal-500 hover:text-white" href="/#contact">
             Contato
           </a>
         </div>
