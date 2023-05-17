@@ -1,5 +1,8 @@
 <template>
-  <section class="flex flex-col justify-center" id="services">
+  <section
+    id="services"
+    class="flex flex-col"
+  >
     <h1>Serviços</h1>
     <div class="flex flex-wrap justify-evenly">
       <ServiceCard

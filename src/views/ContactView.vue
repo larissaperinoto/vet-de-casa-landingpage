@@ -1,5 +1,8 @@
 <template>
-  <section id="contact" class="flex flex-col justify-content items-center sm:flex-row">
+  <section
+    id="contact"
+    class="flex-col sm:flex-row"
+  >
     <div class="w-full sm:w-1/2 md:w-1/2">
       <h1>Entre em contato</h1>
       <button class="special-button flex justify-center items-center w-90 mx-auto sm:w-1/2">

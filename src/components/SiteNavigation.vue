@@ -1,10 +1,14 @@
 <template>
-  <header class="sticky top-0 bg-white w-full py-10">
+  <header class="sticky top-0 bg-white h-20">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <nav class="relative flex justify-between">
-        <div class="flex items-center w-24 md:gap-x-12 md:w-36" id="logo-container">
+        <div class="w-24 md:w-36" id="logo-container">
           <a href="/#home">
-            <img src="../assets/images/logo.png" alt="Vet de Casa" />
+            <img
+              src="../assets/images/logo.png"
+              alt="Vet de Casa"
+              class="py-2"
+            />
           </a>
         </div>
       <div class="flex items-center gap-x-5 md:gap-x-8 md:items-center">

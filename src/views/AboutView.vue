@@ -1,12 +1,13 @@
 <template>
   <section
     id="about"
-    class="flex flex-row flex-wrap justify-center items-center"
+    class="flex-row flex-wrap"
   >
     <div class="w-full flex justify-center px-10 lg:w-2/5">
       <img src="../assets/images/about_img.png" class="bg-teal-500 rounded-[52px] w-[80%]" />
     </div>
-    <div class="w-full p-10 lg:w-2/5">
+
+    <div class="w-full lg:w-2/5">
       <h1>Sobre mim</h1>
       <p>
         Me chamo <span class="font-bold">Rafael Pescara</span>
@@ -16,6 +17,7 @@
         Tenho experiência na área de clínica médica de cães e gatos e atualmente atuo nesta área. Meu propósito com o atendimento em domicílio é proporcionar mais comodidade aos meus pacientes e seus tutores.
       </p>
     </div>
+
   </section>
 </template>
 

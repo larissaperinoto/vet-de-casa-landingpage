@@ -12,7 +12,11 @@
   }
 
   p {
-    @apply text-xl font-paragraph text-slate-600 text-justify py-2 leading-8;
+    @apply text-xl font-paragraph text-slate-600 text-justify py-2 px-10 leading-8;
+  }
+
+  section {
+    @apply flex justify-center items-center h-screen min-h-[800px];
   }
 
   .special-button {
