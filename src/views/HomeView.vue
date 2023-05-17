@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col-reverse justify-center items-center w-full h-full md:flex-row" id="home">
+  <section class="flex flex-col-reverse justify-center items-center w-full md:flex-row" id="home">
     <div class="mx-10 md:w-1/3 md:mx-0">
       <h1>
         Atendimento
@@ -14,9 +14,5 @@
     <div class="flex justify-center w-full mx-10 md:w-1/3 md:mx-5">
       <img class="bg-teal-500 rounded-[52px] h-[500px]" src="../assets/images/home_img.png" alt="Rafael Pescara" />
     </div>
-  </div>
+  </section>
 </template>
-
-<script setup>
-
-</script>
