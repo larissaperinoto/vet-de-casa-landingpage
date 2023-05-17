@@ -1,9 +1,12 @@
 <template>
-  <section id="about" class="flex flex-col justify-center items-center sm:flex-row">
-    <div class="w-full flex justify-center px-10 md:w-1/3">
-      <img src="../assets/images/about_img.png" class="bg-teal-500 rounded-[52px]" />
+  <section
+    id="about"
+    class="flex flex-row flex-wrap justify-center items-center"
+  >
+    <div class="w-full flex justify-center px-10 lg:w-2/5">
+      <img src="../assets/images/about_img.png" class="bg-teal-500 rounded-[52px] w-[80%]" />
     </div>
-    <div class="w-full p-10 md:w-1/3">
+    <div class="w-full p-10 lg:w-2/5">
       <h1>Sobre mim</h1>
       <p>
         Me chamo <span class="font-bold">Rafael Pescara</span>
