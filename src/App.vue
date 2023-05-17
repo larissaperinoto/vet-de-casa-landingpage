@@ -8,6 +8,7 @@
       <PlacesView />
       <ContactView />
     </main>
+    <Footer />
   </div>
 </template>
 
@@ -17,5 +18,6 @@ import HomeView from "./views/HomeView.vue";
 import Services from "./views/ServicesView.vue";
 import AboutView from "./views/AboutView.vue";
 import PlacesView from "./views/PlacesView.vue";
-import ContactView from './views/ContactView.vue'
+import ContactView from "./views/ContactView.vue"
+import Footer from "./components/Footer.vue";
 </script>

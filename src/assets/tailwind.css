@@ -8,7 +8,7 @@
   }
 
   h2 {
-    @apply py-5 font-title text-slate-700 text-center text-2xl;
+    @apply py-5 font-title text-slate-700 text-center text-lg lg:text-2xl;
   }
 
   p {
