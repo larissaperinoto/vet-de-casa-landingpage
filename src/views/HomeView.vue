@@ -8,7 +8,7 @@
       </h1>
       <p class="text-2xl font-Kaushan text-slate-600">Proporcionando muito mais conforto e menos estresse para o seu pet</p>
       <div class="my-5 text-center">
-        <button class=" rounded-full py-2 px-4 text-sm font-semibold bg-teal-500 text-white hover:text-slate-100 hover:bg-teal-600 ">Veja os locais de atendimento</button>
+        <button class="special-button bg-teal-500 text-white hover:bg-teal-600 ">Veja os locais de atendimento</button>
       </div>
     </div>
     <div class="flex justify-center w-full mx-10 md:w-1/3 md:mx-5">

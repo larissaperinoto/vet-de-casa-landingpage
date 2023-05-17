@@ -1,16 +1,12 @@
 <template>
-  <section id="contact" class="h-screen w-screen flex flex-col justify-content items-center sm:flex-row">
-    <div class="w-full sm:w-1/2">
+  <section id="contact" class="flex flex-col justify-content items-center sm:flex-row">
+    <div class="w-full sm:w-1/2 md:w-1/2">
       <h1>Entre em contato</h1>
-      <div class="my-5 text-center">
-        <button class="rounded-full py-2 px-4 text-slate-700 font-semibold border-2 border-teal-500 hover:text-white hover:bg-teal-500">
+      <div class="special-button flex items-center w-1/2 mx-auto">
+        <img src="https://img.icons8.com/office/480/whatsapp--v1.png" target="_blank" class="w-[50px] pr-2" />
           <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5542998091806">
-            <div class="flex justify-content items-center">
-              <img src="https://img.icons8.com/office/480/whatsapp--v1.png" target="_blank" class="w-[50px] pr-2" />
-              <p class="text-xl">Converse com o profissional</p>
-            </div>
+            Converse com o profissional
           </a>
-        </button>
       </div>
     </div>
     <div class="w-full py-10 bg-teal-500 sm:w-1/2 flex flex-col justify-center items-start sm:rounded-l-[52px]">
