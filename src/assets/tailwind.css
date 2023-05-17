@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   h1 {
     @apply font-title text-center text-4xl text-slate-700 pb-10 pt-5;
   }
