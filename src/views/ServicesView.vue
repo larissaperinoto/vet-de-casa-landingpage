@@ -18,7 +18,7 @@
       class="hidden w-full bg-white absolute"
       id="serviceDescription"
     >
-      <div class="w-full lg:w-1/2 rounded-[52px] m-auto p-10 border text-center">
+      <div class="w-full lg:w-1/2 rounded-[52px] m-auto p-8 border shadow-md">
         <div class="flex justify-start">
           <button v-on:click="hiddeContent">
             <img
