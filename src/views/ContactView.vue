@@ -10,6 +10,7 @@
       >
         <img
           src="https://img.icons8.com/office/480/whatsapp--v1.png"
+          alt="WhatsApp"
           target="_blank"
           class="w-[50px] pr-2 bg-transparent rounded-none"
         />

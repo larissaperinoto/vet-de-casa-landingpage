@@ -24,9 +24,9 @@
 
     <div class="flex justify-center w-full mx-10 md:w-1/3 md:mx-5 pt-40 sm:pt-0">
       <img
-        class="h-[500px]"
         src="../assets/images/home_img.png"
         alt="Rafael Pescara"
+        class="h-[500px] px-10"
       />
     </div>
 
