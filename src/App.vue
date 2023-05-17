@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col font-Roboto">
+  <div>
     <SiteNavigation />
     <main>
       <HomeView />
@@ -8,7 +8,7 @@
       <PlacesView />
       <ContactView />
     </main>
-    <Footer />
+    <FooterComponent />
   </div>
 </template>
 
@@ -19,5 +19,5 @@ import Services from "./views/ServicesView.vue";
 import AboutView from "./views/AboutView.vue";
 import PlacesView from "./views/PlacesView.vue";
 import ContactView from "./views/ContactView.vue"
-import Footer from "./components/Footer.vue";
+import FooterComponent from "./components/FooterComponent.vue";
 </script>
