@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1 {
+    @apply font-title text-center text-4xl text-slate-700 pb-10 pt-5;
+  }
+
+  h2 {
+    @apply py-5 font-title text-slate-700 text-center text-lg lg:text-2xl;
+  }
+
+  p {
+    @apply text-xl font-paragraph text-slate-600 text-justify py-2 px-10 leading-8;
+  }
+
+  section {
+    @apply flex justify-center items-center h-screen min-h-[800px];
+  }
+
+  img {
+    @apply bg-primary rounded-[52px];
+  }
+
+  .special-button {
+    @apply text-lg rounded-full my-2 py-2 cursor-pointer px-4 text-slate-700 font-semibold border-2 border-primary hover:text-white hover:bg-secondary;
+  }
+}
+
+.scrolled {
+  animation: padding;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  box-shadow: 0px 1px 5px rgba(54, 54, 54, 0.1);
+}
+
+.scrolled #logo-container {
+  width: 80px;
+  padding: 10px 0;
+}
+
+@keyframes padding {
+  100% {
+    padding: 0;
+  }
+}

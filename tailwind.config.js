@@ -4,14 +4,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "primary": "#3E95A2",
-        "secondary": "#3E7183"
+        "primary": "#099DA1",
+        "secondary": "#046468"
       },
       fontFamily: {
-        Roboto: ["Roboto, sans-serif"]
+        handwriting: ["Cookie, cursive"],
+        title: ["Titan One, cursive"],
+        paragraph: ["PT Serif', serif"],
       },
       container: {
-        padding: "2rem",
         center: true,
       },
       screens: {
