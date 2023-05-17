@@ -14,8 +14,8 @@
       <div class="flex items-center gap-x-5 md:gap-x-8 md:items-center">
         <div class="hidden md:flex md:gap-x-6">
           <NavigationLink
-            v-for="link in this.links"
-            :key="link.title"
+            v-for="link in navigation"
+            :key="link.link"
             :link="link"
           />
         </div>
@@ -48,9 +48,6 @@ export default {
     MenuComponent,
     NavigationLink
 },
-  mounted () {
-    this.links = navigation;
-  },
   created () {
     window.addEventListener('scroll', this.handleScroll);
   },
@@ -66,11 +63,6 @@ export default {
       } else {
         elementDOM.classList.remove('scrolled');
       }
-    }
-  },
-  data () {
-    return {
-      links: [],
     }
   }
 }
