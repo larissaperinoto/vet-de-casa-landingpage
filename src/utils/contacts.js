@@ -1,18 +1,22 @@
 export default [
   {
-    icon: "https://img.icons8.com/color/480/gmail--v1.png",
+    title: "email",
+    icon: "https://img.icons8.com/ios-filled/500/FFFFFF/new-post.png",
     content: "rafaelpescara.vet@gmail.com",
   },
   {
-    icon: "https://img.icons8.com/arcade/512/ringing-phone.png",
+    title: "Telefone",
+    icon: "https://img.icons8.com/ios-filled/500/FFFFFF/phone.png",
     content: "(42) 998091806",
   },
   {
-    icon: "https://img.icons8.com/color/480/instagram-new--v1.png",
+    title: "Instagram",
+    icon: "https://img.icons8.com/glyph-neue/512/FFFFFF/instagram-new--v1.png",
     content: "@rafaelpescara.vet",
   },
   {
-    icon: "https://img.icons8.com/color/480/alarm-clock--v1.png",
-    content: "Atendimento 24 horas",
+    title: "Atendimento",
+    icon: "https://img.icons8.com/ios-filled/500/FFFFFF/clock--v3.png",
+    content: "Atendimento com agendamento",
   },
 ];
