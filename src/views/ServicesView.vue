@@ -4,7 +4,7 @@
     class="flex flex-col"
   >
     <h1>Serviços</h1>
-    <div class="flex flex-wrap justify-evenly">
+    <div class="flex flex-wrap lg:gap-x-4 justify-evenly">
       <ServiceCard
         v-for="service in this.services"
         :key="services.title"
