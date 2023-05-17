@@ -1,10 +1,12 @@
 <template>
   <div class="flex flex-col font-Roboto">
     <SiteNavigation />
-    <HomeView />
-    <Services />
-    <AboutView />
-    <ContactView />
+    <main>
+      <HomeView />
+      <Services />
+      <AboutView />
+      <ContactView />
+    </main>
   </div>
 </template>
 
