@@ -12,8 +12,5 @@
   export default {
     name: "ContactItem",
     props: ['contact'],
-    mounted() {
-      console.log(this.contact)
-    }
   }
 </script>

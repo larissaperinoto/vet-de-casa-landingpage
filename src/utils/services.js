@@ -2,7 +2,7 @@ export default [
   {
     icon: "https://img.icons8.com/pastel-glyph/512/FFFFFF/stethoscope.png",
     title: "Consultas",
-    content: "A consulta em domicílio é realizada da mesma forma que em uma clínica. É feita a triagem do animal, anamnese, exame físico, e se necessário, pode ser feito exames complementares para conclusão do diagnóstico. Pelo fato do animal estar no seu ambiente, a consulta em domicílio costuma ser mais tranquila, pois gera menos estresse, consequentemente, o atendimento se torna mais fácil e menos traumático ao animal. É importante lembrar que as consultas podem ser realizadas quando o animal já apresenta alguma enfermidade ou simplesmente com o intuito preventivo, através de check-ups periódicos."
+    content: "A consulta em domicílio é realizada da mesma forma que em uma clínica. É feita a triagem do animal, anamnese, exame físico, e se necessário, pode ser feito exames complementares para conclusão do diagnóstico. É importante lembrar que as consultas podem ser realizadas quando o animal já apresenta alguma enfermidade ou simplesmente com o intuito preventivo, através de check-ups periódicos."
   },
   {
     icon: "https://img.icons8.com/glyph-neue/512/FFFFFF/vaccine-drop.png",
