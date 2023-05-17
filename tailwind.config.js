@@ -10,7 +10,7 @@ module.exports = {
       fontFamily: {
         handwriting: ["Cookie, cursive"],
         title: ["Titan One, cursive"],
-        paragraph: ["PT Serif', serif"],
+        paragraph: ["PT Serif, serif"],
       },
       container: {
         center: true,

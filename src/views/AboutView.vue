@@ -14,8 +14,7 @@
     <div class="w-full lg:w-2/5">
       <h1>Sobre mim</h1>
       <p>
-        Me chamo <span class="font-bold">Rafael Pescara</span>
-        , sou Médico Veterinário e completamente apaixonado pelos animais.
+        Me chamo <span class="font-bold">Rafael Pescara</span>, sou Médico Veterinário e completamente apaixonado pelos animais.
       </p>
       <p>
         Tenho experiência na área de clínica médica de cães e gatos e atualmente atuo nesta área. Meu propósito com o atendimento em domicílio é proporcionar mais comodidade aos meus pacientes e seus tutores.
