@@ -26,7 +26,7 @@
       <img
         src="../assets/images/home_img.png"
         alt="Rafael Pescara"
-        class="h-[500px]"
+        class="h-[500px] px-10"
       />
     </div>
 
