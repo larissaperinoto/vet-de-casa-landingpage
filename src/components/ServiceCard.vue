@@ -5,6 +5,7 @@
   >
     <img
       :src="service.icon"
+      :alt="service.title"
       class="w-[130px] p-10 sm:w-[150px] md:w-[200px]"
     />
     <h2>{{ service.title }}</h2>

@@ -23,6 +23,7 @@
           <button v-on:click="hiddeContent">
             <img
               src="https://img.icons8.com/ios-filled/50/737373/delete-sign--v1.png"
+              alt="Fechar"
               class="bg-transparent rounded-none w-[20px]"
             />
           </button>

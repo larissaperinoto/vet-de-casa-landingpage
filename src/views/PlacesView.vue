@@ -11,6 +11,7 @@
       <p class="flex justify-start items-end gap-x-4">
         <img
           src="https://img.icons8.com/ios-filled/500/FFFFFF/region-code.png"
+          alt="Localização"
           class="w-[50px] p-1"
         />
         <span class="font-bold text-lg">Local de Atendimento:</span>
@@ -23,7 +24,7 @@
       <div>
         <img
           src="../assets/images/places_img.png"
-          alt="Guarapuava"
+          alt="Mapa de Guarapuava"
           class="rounded-[52px]"
         />
       </div>
