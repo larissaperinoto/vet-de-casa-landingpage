@@ -14,7 +14,7 @@
         Proporcionando muito mais conforto e menos estresse para o seu pet
       </p>
       <div class="text-center">
-        <button class="special-button bg-teal-500 text-white hover:bg-teal-600">
+        <button class="special-button bg-primary text-white hover:bg-teal-600">
           <a href="/#places">
             Veja os locais de atendimento
           </a>
@@ -24,7 +24,7 @@
 
     <div class="flex justify-center w-full mx-10 md:w-1/3 md:mx-5">
       <img
-        class="bg-teal-500 rounded-[52px] h-[500px]"
+        class="h-[500px]"
         src="../assets/images/home_img.png"
         alt="Rafael Pescara"
       />

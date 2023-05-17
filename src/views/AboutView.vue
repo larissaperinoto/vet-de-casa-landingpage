@@ -4,7 +4,11 @@
     class="flex-row flex-wrap"
   >
     <div class="w-full flex justify-center px-10 lg:w-2/5">
-      <img src="../assets/images/about_img.png" class="bg-teal-500 rounded-[52px] w-[80%]" />
+      <img
+        src="../assets/images/about_img.png"
+        alt="Rafael Pescara"
+        class="w-[80%]"
+      />
     </div>
 
     <div class="w-full lg:w-2/5">
@@ -20,13 +24,3 @@
 
   </section>
 </template>
-
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>

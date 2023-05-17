@@ -7,7 +7,7 @@
             <img
               src="../assets/images/logo.png"
               alt="Vet de Casa"
-              class="py-2"
+              class="py-2 bg-transparent rounded-none"
             />
           </a>
         </div>
@@ -20,7 +20,7 @@
           />
         </div>
         <div>
-          <a class="rounded-full py-2 px-4 text-md font-semibold border-2 border-teal-500 text-teal-500 hover:bg-teal-500 hover:text-white" href="/#contact">
+          <a class="special-button text-primary hover:bg-secondary hover:text-white" href="/#contact">
             Contato
           </a>
         </div>

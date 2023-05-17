@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "primary": "#3E95A2",
-        "secondary": "#3E7183"
+        "primary": "#099DA1",
+        "secondary": "#046468"
       },
       fontFamily: {
         handwriting: ["Cookie, cursive"],

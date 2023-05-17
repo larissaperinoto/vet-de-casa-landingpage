@@ -19,8 +19,12 @@
     @apply flex justify-center items-center h-screen min-h-[800px];
   }
 
+  img {
+    @apply bg-primary rounded-[52px];
+  }
+
   .special-button {
-    @apply text-lg rounded-full my-2 py-2 cursor-pointer px-4 text-slate-700 font-semibold border-2 border-teal-500 hover:text-white hover:bg-teal-500;
+    @apply text-lg rounded-full my-2 py-2 cursor-pointer px-4 text-slate-700 font-semibold border-2 border-primary hover:text-white hover:bg-secondary;
   }
 }
 
