@@ -9,7 +9,9 @@
       <p class="font-handwriting text-4xl">Proporcionando muito mais conforto e menos estresse para o seu pet</p>
       <div class="my-5 text-center">
         <button class="special-button bg-teal-500 text-white hover:bg-teal-600 ">
-          Veja os locais de atendimento
+          <a href="/#places">
+            Veja os locais de atendimento
+          </a>
         </button>
       </div>
     </div>

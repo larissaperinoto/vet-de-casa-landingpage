@@ -4,7 +4,7 @@
 
 @layer base {
   h1 {
-    @apply font-title text-center text-4xl text-slate-700 py-10;
+    @apply font-title text-center text-4xl text-slate-700 pb-10 pt-5;
   }
 
   h2 {
@@ -12,7 +12,7 @@
   }
 
   p {
-    @apply text-2xl font-paragraph text-slate-600;
+    @apply text-xl font-paragraph text-slate-600 text-justify py-2 leading-8;
   }
 
   .special-button {
