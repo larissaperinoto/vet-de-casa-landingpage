@@ -6,17 +6,15 @@ know more about **Vet de Casa**:
 
 <div>
   <a href="https://www.instagram.com/rafaelpescara.vet/">
-    <img width="35" height="35" src="https://img.icons8.com/fluency/480/instagram-new.png" alt="instagram-new" title="Instagram"/>
+    <img width="45" height="45" src="https://img.icons8.com/fluency/480/instagram-new.png" alt="instagram-new" title="Instagram"/>
   </a>
   <a href="mailto:rafaelpescara.vet@gmail.com">
-    <img width="35" height="35" src="https://img.icons8.com/color/480/gmail--v1.png" alt="gmail" title="Email"/>
+    <img width="45" height="45" src="https://img.icons8.com/color/480/gmail--v1.png" alt="gmail" title="Email"/>
   </a>
   <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5542998091806.">
-    <img width="35" height="35" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp" title="WhatsApp" />
+    <img width="45" height="45" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp" title="WhatsApp" />
   </a>
 </div>
-
-<br>
 
 ## Technologies and Tools
 
