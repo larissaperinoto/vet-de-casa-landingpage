@@ -6,11 +6,9 @@
 
     <div class="md:w-1/3 md:mx-0">
       <h1>
-        Atendimento
-        <span class="italic">veterinário</span>
-        em casa
+        Atendimento veterinário em domicílio
       </h1>
-      <p class="font-handwriting text-4xl text-center">
+      <p class="font-handwriting text-2xl md:text-4xl text-center">
         Proporcionando muito mais conforto e menos estresse para o seu pet
       </p>
       <div class="text-center">
@@ -22,11 +20,11 @@
       </div>
     </div>
 
-    <div class="flex justify-center w-full mx-10 md:w-1/3 md:mx-5 pt-40 sm:pt-0">
+    <div class="flex justify-center w-full mx-10 md:w-1/3 md:mx-5">
       <img
         src="../assets/images/home_img.png"
         alt="Rafael Pescara"
-        class="h-[500px] px-10"
+        class="h-[100vw] sm:h-[40vw] md:h-[38vw] lg:h-[36vw] px-10"
       />
     </div>
 

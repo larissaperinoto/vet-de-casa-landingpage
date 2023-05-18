@@ -4,7 +4,8 @@
     class="flex flex-col"
   >
     <div>
-      <h1>Serviços</h1>
+      <h1 class="pb-5">Serviços</h1>
+      <p class="text-center pb-5">Clique em um serviço para saber mais.</p>
       <div class="flex flex-wrap lg:gap-x-4 justify-evenly">
         <ServiceCard
           v-for="service in this.services"
@@ -15,10 +16,10 @@
       </div>
     </div>
     <div
-      class="hidden w-full bg-white absolute"
+      class="hidden w-full h-90 bg-white absolute"
       id="serviceDescription"
     >
-      <div class="w-full lg:w-1/2 rounded-[52px] m-auto p-8 border shadow-md">
+      <div class="lg:w-1/2 rounded-[52px] m-auto p-5 sm:p-6 md:p-7 lg:p-8 border shadow-md">
         <div class="flex justify-start">
           <button v-on:click="hiddeContent">
             <img

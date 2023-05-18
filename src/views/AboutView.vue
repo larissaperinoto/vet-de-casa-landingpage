@@ -7,7 +7,7 @@
       <img
         src="../assets/images/about_img.png"
         alt="Rafael Pescara"
-        class="w-[80%]"
+        class="w-[100vw] sm:w-[40vw] lg:w-[30vw]"
       />
     </div>
 
