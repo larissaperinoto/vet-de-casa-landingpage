@@ -4,7 +4,7 @@
       <div class="w-full lg:w-1/2">
         <h1 class="text-white p-0 text-2xl">Vet de Casa</h1>
         <p class="text-white font-handwriting text-xl text-center">
-          Mais conforto e menos stresse para o seu pet.
+          Mais conforto e menos estresse para o seu pet.
         </p>
       </div>
       <div class="w-full lg:w-1/2">
