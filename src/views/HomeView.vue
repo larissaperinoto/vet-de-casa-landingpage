@@ -1,6 +1,6 @@
 <template>
   <section
-    id="home"
+    id="inicio"
     class="flex-col-reverse md:flex-row"
   >
 
@@ -13,7 +13,7 @@
       </p>
       <div class="text-center">
         <button class="special-button bg-primary text-white hover:bg-teal-600">
-          <a href="/#places">
+          <a href="#atendimento">
             Veja os locais de atendimento
           </a>
         </button>

@@ -1,6 +1,6 @@
 <template>
   <section
-    id="places"
+    id="atendimento"
     class="flex-row flex-wrap"
   >
     <div class="w-full lg:w-2/5">

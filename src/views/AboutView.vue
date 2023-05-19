@@ -1,6 +1,6 @@
 <template>
   <section
-    id="about"
+    id="sobre"
     class="flex-row flex-wrap"
   >
     <div class="w-full flex justify-center px-10 lg:w-2/5">
