@@ -8,7 +8,7 @@
   }
 
   h1 {
-    @apply font-title text-center text-4xl text-slate-700 pb-10 pt-5;
+    @apply font-title text-center text-4xl text-slate-700 pt-5 pb-2 sm:pb-6;
   }
 
   h2 {
@@ -28,7 +28,7 @@
   }
 
   .special-button {
-    @apply text-lg rounded-full my-2 py-2 cursor-pointer px-4 text-slate-700 font-semibold border-2 border-primary hover:text-white hover:bg-secondary;
+    @apply text-lg rounded-full my-5 py-2 cursor-pointer px-4 text-slate-700 font-semibold border-2 border-primary hover:text-white hover:bg-secondary;
   }
 }
 
