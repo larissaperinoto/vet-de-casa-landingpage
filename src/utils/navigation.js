@@ -1,7 +1,7 @@
 export default [
   {
     title: "Início",
-    link: "/"
+    link: ""
   },
   {
     title: "Serviços",
