@@ -26,19 +26,15 @@
         >
           <div class="px-1 py-1">
             <MenuItem v-slot="{ active }">
-              <button
+              <a
                 :class="[
                   active ? 'bg-violet-500 text-white' : 'text-gray-900',
                   'group flex w-full items-center rounded-md px-2 py-2 text-sm',
                 ]"
+                href="/"
               >
-                <EditIcon
-                  :active="active"
-                  class="mr-2 h-5 w-5 text-violet-400"
-                  aria-hidden="true"
-                />
                 Início
-              </button>
+            </a>
             </MenuItem>
             <MenuItem v-slot="{ active }">
               <a
@@ -46,35 +42,23 @@
                   active ? 'bg-violet-500 text-white' : 'text-gray-900',
                   'group flex w-full items-center rounded-md px-2 py-2 text-sm',
                 ]"
-                href="/#services"
+                href="#servicos"
               >
-                <DuplicateIcon
-                  :active="active"
-                  class="mr-2 h-5 w-5 text-violet-400"
-                  aria-hidden="true"
-                />
                 Serviços
             </a>
             </MenuItem>
-          </div>
-          <div class="px-1 py-1">
-            <MenuItem v-slot="{ active }" href="/#about">
-              <button
+            <MenuItem v-slot="{ active }">
+              <a
                 :class="[
                   active ? 'bg-violet-500 text-white' : 'text-gray-900',
                   'group flex w-full items-center rounded-md px-2 py-2 text-sm',
                 ]"
+                href="#sobre"
               >
-                <ArchiveIcon
-                  :active="active"
-                  class="mr-2 h-5 w-5 text-violet-400"
-                  aria-hidden="true"
-                />
                 Sobre
-              </button>
+            </a>
             </MenuItem>
           </div>
-
         </MenuItems>
       </transition>
     </Menu>

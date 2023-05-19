@@ -1,14 +1,14 @@
 export default [
   {
     title: "Início",
-    link: "#home"
+    link: "/"
   },
   {
     title: "Serviços",
-    link: "#services"
+    link: "#servicos"
   },
   {
     title: "Sobre",
-    link: "#about"
+    link: "#sobre"
   },
 ]

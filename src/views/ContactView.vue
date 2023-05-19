@@ -1,6 +1,6 @@
 <template>
   <section
-    id="contact"
+    id="contato"
     class="flex-col sm:flex-row"
   >
     <div class="w-full pb-10 sm:w-1/2 md:w-1/2">

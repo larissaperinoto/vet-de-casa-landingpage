@@ -3,7 +3,7 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <nav class="relative flex justify-between">
         <div class="w-24 md:w-36" id="logo-container">
-          <a href="/#home">
+          <a href="/">
             <img
               src="../assets/images/logo.png"
               alt="Vet de Casa"
@@ -20,7 +20,10 @@
           />
         </div>
         <div>
-          <a class="special-button text-primary hover:bg-secondary hover:text-white" href="/#contact">
+          <a
+            class="special-button text-primary hover:bg-secondary hover:text-white"
+            href="#contato"
+          >
             Contato
           </a>
         </div>
