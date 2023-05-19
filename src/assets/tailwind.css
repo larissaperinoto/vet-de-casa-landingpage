@@ -44,6 +44,21 @@
   padding: 10px 0;
 }
 
+#serviceDescription {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: -100vw;
+  }
+
+  to {
+    margin-left: 0;
+  }
+}
+
 @keyframes padding {
   100% {
     padding: 0;
