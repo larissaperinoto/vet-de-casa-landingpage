@@ -23,12 +23,12 @@
 
     <div class="w-full lg:w-2/5">
 
-      <div>
-        <img
-          src="../assets/images/places_img.png"
-          alt="Mapa de Guarapuava"
-          class="rounded-[52px]"
-        />
+      <div class="px-5">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d461614.40236326534!2d-51.88595826763319!3d-25.32561356576059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ef37b40669586f%3A0x94ad03dd443a7af3!2sGuarapuava%20-%20PR%2C%20Brasil!5e0!3m2!1spt-BR!2sat!4v1684932095740!5m2!1spt-BR!2sat"
+          class="w-full h-[300px] rounded-[52px]"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
       </div>
     </div>
   </section>
