@@ -5,7 +5,7 @@ export default [
     content: "A consulta em domicílio é realizada da mesma forma que em uma clínica. É feita a triagem do animal, anamnese, exame físico, e se necessário, pode ser feito exames complementares para conclusão do diagnóstico. É importante lembrar que as consultas podem ser realizadas quando o animal já apresenta alguma enfermidade ou simplesmente com o intuito preventivo, através de check-ups periódicos."
   },
   {
-    icon: "https://img.icons8.com/glyph-neue/512/FFFFFF/vaccine-drop.png",
+    icon: "https://img.icons8.com/?size=100&id=9565&format=png&color=FFFFFF",
     title: "Vacinas",
     content: "As vacinas são imprescindíveis para a manutenção da saúde tanto de cães quanto de gatos e o protocolo vacinal é definido de acordo com a necessidade individual de cada animal. A vacinação pode prevenir doenças fatais, por isso é importante iniciar o protocolo quando o animal ainda é filhote. O procedimento é simples e totalmente possível de ser realizado em casa!"
   },
